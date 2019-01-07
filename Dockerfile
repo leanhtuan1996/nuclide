@@ -5,6 +5,7 @@ ENV PASSWORD o4w2dqBNuVcAgeKMN78rbX6f7B
 
 RUN apt-get update
 RUN apt-get install vim npm -y
+RUN apt-get install git -y
 RUN npm install -g n
 RUN n stable
 RUN npm install -g nuclide
