@@ -8,7 +8,7 @@ RUN apt-get install vim npm -y
 RUN apt-get install git -y
 RUN npm install -g n
 RUN n stable
-RUN npm install -g nuclide
+RUN npm install -g nuclide watchman
 RUN npm install -g relay-runtime
 
 RUN echo 'root:${PASSWORD}' | chpasswd
